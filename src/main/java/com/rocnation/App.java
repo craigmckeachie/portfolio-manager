@@ -42,7 +42,7 @@ public class App {
         double netWorth = hovaPortfolio.getValue();
         // Print the final aggregated net worth
         System.out.println("-------------------------------------");
-        System.out.printf("TOTAL CALCULATED NET WORTH: $%,.2f%n", netWorth);
+        System.out.printf("TOTAL CALCULATED NET WORTH: $%,.0f%n", netWorth);
         System.out.println("=====================================");
 
         System.out.println("=====================================");

@@ -13,8 +13,6 @@ public class Portfolio {
         this.assets = new ArrayList<>();
     }
 
-
-
     public String getOwner() {
         return owner;
     }
