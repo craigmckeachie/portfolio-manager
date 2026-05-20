@@ -1,4 +1,8 @@
 package com.rocnation;
 
-public class CreditCard {
+public class CreditCard extends Account{
+
+    public CreditCard(String name, String accountNumber, double balance) {
+        super(name, accountNumber, balance);
+    }
 }
