@@ -1,6 +1,5 @@
 package com.rocnation;
 
-import java.util.ArrayList;
 
 public class App {
     public static void main(String[] args) {
@@ -39,9 +38,7 @@ public class App {
         System.out.println("Portfolio Owner: " + hovaPortfolio.getOwner());
         System.out.println("-------------------------------------");
 
-        // TODO: Loop through all Valuable assets in hovaPortfolio.getAssets(),
-        // call .getValue() on each item to calculate the aggregated net worth,
-        // and print the final total.
+
         double netWorth = hovaPortfolio.getValue();
         // Print the final aggregated net worth
         System.out.println("-------------------------------------");
